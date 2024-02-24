@@ -4,16 +4,11 @@ import os
 
 
 generated_media = "generated_media"
-reddit = praw.Reddit(client_id='4K038f_UDGzRvv-aNTguQw',
-                     client_secret='aBNKxPKSWamAxfz2KX0P-mtv_lAiMA',
-                     username='ItWasWonderfulToSee',
-                     password='hYr3875jHnhgoII',
-                     user_agent='aredditscraperbot')
-# reddit = praw.Reddit(client_id='',
-#                      client_secret='',
-#                      username='',
-#                      password='',
-#                      user_agent='')
+reddit = praw.Reddit(client_id='',
+                     client_secret='',
+                     username='',
+                     password='',
+                     user_agent='')
 
 class RedditCrawler:
     def __init__(self, Subreddit: str):
