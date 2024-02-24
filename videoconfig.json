@@ -1,0 +1,15 @@
+{
+  "randomise_audio": true,
+  "no_repeat_audio": false,
+  "stock_audio":  "",
+
+  "randomise_video": true,
+  "no_repeat_video": false,
+  "stock_video": "",
+
+  "video_length": 8,
+  "reddit_images": 15,
+  "subreddit": "Animemes",
+  "other_images": [],
+  "sfw": false
+}
